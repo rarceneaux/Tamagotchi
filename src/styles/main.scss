@@ -1,1 +1,38 @@
-@import "../javascripts/components/eat/eat.js";
+@import '../javascripts/components/eat/eat.scss';
+
+.quad {
+  width: 50%;
+  height: 50%;
+};
+
+#eat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  text-align: center;
+};
+
+#fight {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  text-align: center;
+};
+
+#play {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  text-align: center;
+};
+
+#sleep {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: blue;
+  text-align: center;
+};

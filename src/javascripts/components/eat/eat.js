@@ -1,19 +1,21 @@
-import util from "../../helpers/util.js";
+import util from '../../helpers/util';
 
-let full = 100;
-let healthy = 10;
-let unhealthy = -3;
+const full = 100;
+// const healthy = 10;
+// const unhealthy = -3;
+// will javascript pick up negative numbers
 
-const foods = [
-  {"name":"broccoli","value": healthy,},
-  {"name":"ice cream","value":unhealthy}
-];
+// const foods = [
+//   { name: 'broccoli', value: healthy },
+//   { name: 'ice cream', value: unhealthy }
+// ];
 
 const eatStringInfo = () => {
-  let eatString =`<button id="healthy" type="button">Healthy</button>`;
-  eatString += `<button id="unhealthy" type="button">Unhealthy</button>`;
-  eatString +=  `<h1>Eat</h1>`;
-  eatString +=  `<h3>Score = ${ full}</h3>`;
-  util.printToDom("eat",eatString);
+  let eatString = '<h1>Eat</h1>';
+  eatString += '<button id="healthy" type="button">Healthy</button>';
+  eatString += '<button id="unhealthy" type="button">Unhealthy</button>';
+  eatString += `<h3>Score = ${full}</h3>`;
+  util.printToDom('eat', eatString);
 };
 
+export default { eatStringInfo };
