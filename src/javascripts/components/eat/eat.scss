@@ -1,2 +1,18 @@
+#eat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  text-align: center;
+};
 
+#eatAmt{
+  width: 200px;
+  height: 10px;
+  background-color: lightgray;
+};
 
+button{
+  border-radius: 10px;
+  background-color: dodgerblue;
+}
