@@ -5,7 +5,7 @@
 This application is a less realistic remake of the mid-ninties fad Tamagotchi. 
 
 ## Screenshot
-![](src/screenshots/Tamagotchi.png)
+![](https://raw.githubusercontent.com/rarceneaux/Tamagotchi/master/src/screenshots/Tamagotchi.png)
  
  
 ## How to Run:
