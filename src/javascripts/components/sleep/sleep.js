@@ -18,7 +18,7 @@ const energyStringInfo = () => {
     }
   });
   bearNapBtn.addEventListener('click', () => {
-    if (energy + 60 >= 99){
+    if (energy + 60 >= 99) {
       energy += 60;
       document.getElementById('sleepAmt').value = energy;
     }
